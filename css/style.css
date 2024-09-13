@@ -29,6 +29,9 @@ li.nav-item {
     display: block !important;
     position: absolute;
 }
+.interior-image img{
+  max-width: 50% !important;
+}
 .sub-menu{
     display: none;
     transition: 0.4s;
@@ -244,11 +247,12 @@ padding: 0.8rem 0;
     margin-bottom: 2rem;
   }
   .slide-img{
-    padding: 11rem;
+    padding: 3rem;
+    overflow: hidden;
   }
   .slide-img img{
     height: 100%;
-    width: 100%;
+    width: 53%;
   }
   .para{
     font-size: 18px;
@@ -462,5 +466,18 @@ footer{
 }
 .line{
   width: 20%;
+}
+.card-main h1 {
+  margin-bottom: 0.6rem;
+  font-size: 3rem;
+  font-weight: 300;
+  text-align: center;
+}
+.interior-image {
+  margin-left: 0 !important;
+}
+.slide-img img {
+  height: 100%;
+  width: 100%;
 }
  }
