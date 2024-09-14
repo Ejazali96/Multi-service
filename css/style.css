@@ -496,6 +496,9 @@ footer{
   .form-group {
     width: 100%;
 }
+.footer-link ul li {
+  font-size: 13px;
+}
 .contact-card {
   gap: 0px;
 }
