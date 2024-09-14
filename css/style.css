@@ -484,7 +484,21 @@ footer{
 .title{
   margin-left: 1.5rem;
 }
+.form-group {
+  width: 40%;
+}
+.contact-card{
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
 @media (max-width: 575.98px) { 
+  .form-group {
+    width: 100%;
+}
+.contact-card {
+  gap: 0px;
+}
   .wrap-flex{
     flex-wrap: wrap;
   }
