@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    font-family: "Roboto", sans-serif;
+  font-family: "Montserrat", sans-serif !important;
 }
 .row{
   margin: 0;
@@ -64,6 +64,9 @@ padding: 0.8rem 0;
     z-index: 999999;
     color: white !important;
 }
+.navbar-brand img{
+  height: 40px;
+}
   @media (max-width: 767px) {
     .outter.hero-video {
       height: 234px;
@@ -92,11 +95,7 @@ padding: 0.8rem 0;
     top: 0;
     left: 0;
   }
-  @media (max-width: 767px) {
-    .hero-video video {
-      height: 325px;
-    }
-  }
+
   .hero-video .video-container:after {
     content: "";
     display: block;
@@ -112,9 +111,10 @@ padding: 0.8rem 0;
     text-transform: uppercase;
     margin: 0 0 1rem;
     padding: 0;
-    line-height: 1.1em;
+    line-height: 1.2em;
     color: white;
     font-weight: 400;
+    font-size: 45px ;
   }
   @media (max-width: 767px) {
     .hero-video h1 {
@@ -122,11 +122,7 @@ padding: 0.8rem 0;
       line-height: 1.4;
     }
   }
-  @media (min-width: 768px) {
-    .hero-video h1 {
-      font-size: 52px;
-    }
-  }
+
   .hero-video .desc {
     color: white;
     font-weight: 400;
@@ -140,7 +136,7 @@ padding: 0.8rem 0;
     height: 100%;
     position: relative;
     z-index: 10;
-    width: 60%;
+    width: 50%;
   }
   @media (max-width: 767px) {
     .hero-video .callout {
@@ -262,11 +258,7 @@ padding: 0.8rem 0;
   .bg{
     background-color: black;
     height: 50%;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    /* align-items: center; */
-    padding-left: 5rem;
+    padding: 3rem 2rem;
   }
   .border-right{
     border-right: 2px solid white;
@@ -299,6 +291,10 @@ padding: 0.8rem 0;
     margin-top: -14px;
     z-index: 9;
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
   }
   .card-detail svg{
     fill: white;
@@ -306,7 +302,7 @@ padding: 0.8rem 0;
     height: 35px;
   }
   .card-detail h2{
-    font-size: 20px;
+    font-size: 18px;
     margin-top: 20px;
   }
 .border-left-0{
@@ -392,11 +388,115 @@ footer{
   margin-bottom: 0;
   width: 50%;
 }
+.card-main {
+  width: 100%;
+}
+.card-main h2{
+  text-transform: uppercase;
+}
+.imag-card{
+  background: white;
+  height: 90px;
+  width: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 50%;
+}
+.imag-card img{
+  height: 100%;
+  width: 100%;
+}
+.contact-us{
+  background-image: url(../images/sticky-img-1.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 70vh;
+  margin-top: -70px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact-us h1{
+  z-index: 9;
+  position: relative;
+}
+.gurantee{
+  font-size: 20px;
+}
+.contact-us-link ul li{
+  list-style: none;
+  margin: 15px 0;
+}
+.contact-us-link ul li a{
+  color: black;
+  text-decoration: none;
+}
+.contact-form{
+  background-color: black;
+  padding: 2rem 4rem;
+  border-radius: 5px;
 
+}
+.form-group input{
+  width: 100%;
+  background-color: transparent;
+  color: white;
+  border-bottom: 1px solid white !important;
+  padding: 10px;
+  border: none;
+  outline: none;
+}
+.form-group input::placeholder{
+  color: white;
+}
+.form-group {
+  margin: 16px 0;
+}
+.form-group textarea{
+  width: 100%;
+  background-color: transparent;
+  color: white;
+  border-bottom: 1px solid white !important;
+  padding: 10px;
+  border: none;
+  outline: none;
+  resize: none;
+}
+.form-group textarea::placeholder{
+  color: white;
+}
+.form-group button{
+  height: 50px;
+  border-radius: 4px;
+  outline: none;
+  /* width: 20%; */
+  font-size: 20px;
+  padding: 10px 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+}
+.title{
+  margin-left: 1.5rem;
+}
 @media (max-width: 575.98px) { 
   .wrap-flex{
     flex-wrap: wrap;
   }
+  .contact-us-link{
+    margin-left: 1.5rem;
+  }
+  .margin-top-10{
+    margin-top: 10px !important;
+  }
+  .contact-form {
+    padding: 1rem 1rem;
+}
   .sub-logo {
     height: 200px;
     width: 180px;
