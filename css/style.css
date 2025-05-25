@@ -65,7 +65,7 @@ padding: 0.8rem 0;
     color: white !important;
 }
 .navbar-brand img{
-  height: 40px;
+  height: 44px;
 }
   @media (max-width: 767px) {
     .outter.hero-video {
@@ -136,7 +136,11 @@ padding: 0.8rem 0;
     height: 100%;
     position: relative;
     z-index: 10;
-    width: 50%;
+       display: flex
+;
+    justify-content: end;
+    align-items: center;
+    text-align: center;
   }
   @media (max-width: 767px) {
     .hero-video .callout {
@@ -152,8 +156,8 @@ padding: 0.8rem 0;
     touch-action: manipulation;
     width: 100%;
     transition: all 0.3s;
-    background: black;
-    color: white;
+    background: gold;
+    color: black;
     text-decoration: none;
     text-decoration: none;
     width: 200px;
@@ -235,13 +239,7 @@ padding: 0.8rem 0;
     flex-direction: column;
     padding-left: 5rem;
   }
-  .sub-logo{
-    height: 200px;
-    width: 300px;
-    margin-top: 10rem;
-    margin-left: 4rem;
-    margin-bottom: 2rem;
-  }
+ 
   .slide-img{
     padding: 3rem;
     overflow: hidden;
@@ -304,6 +302,8 @@ padding: 0.8rem 0;
   .card-detail h2{
     font-size: 18px;
     margin-top: 20px;
+    font-size: 14px;
+    text-align: center;
   }
 .border-left-0{
   border-left: 0 !important;
