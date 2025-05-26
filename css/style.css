@@ -240,7 +240,9 @@ padding: 0.8rem 0;
     flex-direction: column;
     padding-left: 5rem;
   }
- 
+ img.img-fluid.sub-logo {
+    height: 80px;
+}
   .slide-img{
     padding: 3rem;
     overflow: hidden;
@@ -494,6 +496,9 @@ footer{
   flex-wrap: wrap;
 }
 @media (max-width: 575.98px) { 
+  .mobile-gap{
+    gap: 10px !important;
+  }
   .form-group {
     width: 100%;
 }
