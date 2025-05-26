@@ -209,6 +209,7 @@ padding: 0.8rem 0;
   }
   .title-detail p{
     font-size: 18px;
+       color: black;
   }
   .direction{
     flex-direction: column;
