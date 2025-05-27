@@ -146,7 +146,7 @@ padding: 0.8rem 0;
   }
   .text-gold{
     color: #D3AF37;
-    font-weight: 600 !important;
+    font-weight: 500 !important;
   }
   @media (max-width: 767px) {
     .hero-video .callout {
