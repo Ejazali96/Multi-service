@@ -283,11 +283,11 @@ padding: 0.8rem 0;
     border-right: 2px solid white;
   }
   .sticky-img{
-    background-image: url(../images/sticky-img-1.jpg);
+    background-image: url(../images/commercial.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 50vh;
+    height: 70vh;
     background-attachment: fixed;
   }
   .owl-theme .owl-nav.disabled+.owl-dots{
@@ -298,7 +298,7 @@ padding: 0.8rem 0;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 50vh;
+    height: 70vh;
     background-attachment: fixed;
   }
   .card-main h1{ 
