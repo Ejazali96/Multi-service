@@ -22,7 +22,7 @@ li.nav-item {
 .navbar-nav .nav-link {
     z-index: 9999999;
     position: relative;
-     color: gold !important;
+     color: black !important;
     font-weight: 600;
     font-size: 16px;
     cursor: pointer;
@@ -144,6 +144,10 @@ padding: 0.8rem 0;
     align-items: center;
     text-align: center;
   }
+  .text-gold{
+    color: #D3AF37;
+    font-weight: 600 !important;
+  }
   @media (max-width: 767px) {
     .hero-video .callout {
       width: 90%;
@@ -158,11 +162,11 @@ padding: 0.8rem 0;
     touch-action: manipulation;
     width: 100%;
     transition: all 0.3s;
-    background: gold;
+    background: #D3AF37;
     color: black;
     text-decoration: none;
     text-decoration: none;
-    width: 200px;
+    width: 240px;
     text-align: center;
     height: 50px;
     display: flex;
@@ -196,7 +200,7 @@ padding: 0.8rem 0;
     position: absolute;
     bottom: -11px;
     height: 4px;
-    background-color: black;
+    background-color: #D3AF37;
     width: 120px;
     left: 3px;
     border-radius: 4px;
@@ -232,7 +236,7 @@ padding: 0.8rem 0;
     color: rgb(29, 28, 28);
   }
   .extra-sec{
-    background-color: gold;
+    background-color: #D3AF37;
   }
   .card-wrap{
     background-color: white;
@@ -243,9 +247,10 @@ padding: 0.8rem 0;
     padding-left: 5rem;
   }
  img.img-fluid.sub-logo {
-    height: 50px;
+    height: 60px;
     transition: 0.4s;
     cursor: pointer;
+    width: 152px !important;
 }
  img.img-fluid.sub-logo:hover{
    transform: scale(1.09);
@@ -256,7 +261,7 @@ padding: 0.8rem 0;
   }
   .slide-img img{
     height: 100%;
-    width:  75%;
+    width:  50%;
   }
   .para{
     font-size: 18px;
@@ -270,7 +275,7 @@ padding: 0.8rem 0;
     font-size: 1.9rem !important;
   }
   .bg{
-    background-color: gold;
+    background-color: #D3AF37;
     padding: 2rem 1rem;
         min-height: 25rem;
   }
@@ -299,7 +304,7 @@ padding: 0.8rem 0;
     font-weight: 300;
   }
   .card-detail{
-    background-color: gold;
+    background-color: #D3AF37;
     border: 2px solid white;
     padding: 2rem;
     margin-top: -14px;
@@ -444,7 +449,7 @@ footer{
 }
 .gurantee{
   font-size: 20px;
-   color: gold !important;
+   color: black !important;
     font-weight: 600;
 }
 .contact-us-link ul li{

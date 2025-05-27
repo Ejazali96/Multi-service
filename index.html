@@ -16,7 +16,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/owl.carousel.css">
+    <!-- owl link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
 </head>
 
 <body>
@@ -65,7 +67,7 @@
               </li>
             </ul>
             <form class="d-flex">
-              <a class="custom-button" href="./contact-us.html" target="_blank">GET A QUOTE</a>
+              <a class="custom-button" href="./contact-us.html" target="_blank">GET A CONSULTATION</a>
             </form>
           </div>
         </div>
@@ -81,7 +83,7 @@
         <h1 class="text-uppercase">Whether you're planning a residential or commercial painting project, we’re here to ensure the process is smooth and the outcome exceeds expectations.
 </h1>
         <!-- <div class="desc">An optional description</div> -->
-        <a class="custom-button mt-5" href="./contact-us.html" target="_blank">GET A QUOTE</a>
+        <a class="custom-button mt-5" href="./contact-us.html" target="_blank">GET A CONSULTATION</a>
         <p class="mt-3 text-uppercase  gurantee"> 5 to 15 years guarantee 
         </p>
       </div>
@@ -94,7 +96,7 @@
       <div class="row">
         <div class="col-md-6">
           <div class="title ">
-            <h3 class="text-uppercase "> PROUDLY SERVING toronto  AND  SURROUNDING AREAS</h3>
+            <h3 class="text-uppercase text-gold"> PROUDLY SERVING toronto  AND  SURROUNDING AREAS</h3>
           </div>
         </div>
         <div class="col-md-6">
@@ -118,7 +120,7 @@
         </div>
         <div class="col-md-6  direction">
           <div class="title margin-left-center title-detail">
-            <h3 >Interior Painting – Create a Space That Reflects You</h3>
+            <h3 class="text-gold">Interior Painting – Create a Space That Reflects You</h3>
             <p class="mt-4 text-black">A fresh coat of paint can completely transform the look and feel of your home. Whether you're refreshing a single room, updating your entire home, or setting the tone for a new design, our team is here to guide you every step of the way. We use high-quality, low-odor, durable paints to deliver a smooth, flawless finish tailored to your style. Trust our expertise to transform your interiors with care, precision, and a clean, professional touch.</p>
          
             <!-- <a href="#." class="learn-more">Learn More <span class="ms-1 mt-1"> <i
@@ -135,10 +137,21 @@
     <div class="extra-sec mt-3 pb-3 pt-2">
   
       <div class="container d-flex gap-5 justify-content-center p-3 text-center flex-wrap mobile-gap">
-  <img src="images/Sherwin-Williams_logo_wordmark.png" alt="" class="img-fluid sub-logo">
-   <img src="images/evo-tect.png" alt="" class="img-fluid sub-logo">
-    <img src="images/Benjamin-logo.png" alt="" class="img-fluid sub-logo">
-     <img src="images/betonel-vertical-square.png" alt="" class="img-fluid sub-logo">
+         <div class="owl-carousel owl-theme justify-content-center d-flex">
+                    <div class="item">
+                        <img src="images/Sherwin-Williams_logo_wordmark.png" alt="" class="img-fluid sub-logo">
+                    </div>
+                    <div class="item">
+                   <img src="images/evo-tect.png" alt="" class="img-fluid sub-logo">
+                    </div>
+                    <div class="item">
+                        <img src="images/Benjamin-logo.png" alt="" class="img-fluid sub-logo">
+                    </div>
+                    <div class="item">
+                     <img src="images/betonel-vertical-square.png" alt="" class="img-fluid sub-logo">
+                    </div>
+    
+                </div>
       </div>
 
     </div>
@@ -147,7 +160,7 @@
         <div class="col-md-6 d-flex justify-content-center direction ps-0">
         
           <div class="title card-wrap title-detail">
-            <h3 class="w-100">Exterior Painting – Our Specialty, Your Home’s First Impression</h3>
+            <h3 class="w-100 text-gold">Exterior Painting – Our Specialty, Your Home’s First Impression</h3>
             <p class="para">Exterior painting is not just what we do — it’s what we do best. Our team specializes in transforming homes and buildings with long-lasting, weather-resistant finishes that protect and enhance curb appeal. From siding and trim to doors and shutters, we use premium products and expert techniques to ensure a clean, durable result that stands up to the elements. Whether your exterior needs a full makeover or a fresh update, we deliver top-quality craftsmanship with a flawless finish — every time.</p>
             <!-- <a href="#." class="learn-more">Learn More <span class="ms-1 mt-1"> <i
                   class="fas fa-long-arrow-alt-right"></i></span></a> -->
@@ -156,6 +169,7 @@
         <div class="col-md-6">
           <div class="slide-img d-flex wrap-flex">
             <img src="images/exterior-img.jpg" alt="">
+            <img src="images/home-2.jpg" alt="">
           </div>
         </div>
       </div>
@@ -197,7 +211,7 @@ Breathe new life into your kitchen or bathroom without the cost of a full renova
       <div class="row  margin-top">
         <div class="col-md-6">
           <div class="title padding-0">
-            <h3>
+            <h3 class="text-gold">
               OUR PAINTING PROCESS</h3>
           </div>
         </div>
@@ -331,9 +345,38 @@ Breathe new life into your kitchen or bathroom without the cost of a full renova
 
 
   <!-- navbar start -->
-
-  <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> -->
-  <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script> -->
+   <!-- owl caresoul script start -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script>
+      $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    responsiveClass:true,
+    autoplay:true,
+      autoplayTimeout: 3000, // Slide change after 2 seconds (1000 = 1 sec)
+    autoplaySpeed: 800, 
+    responsive:{
+        0:{
+            items:1,
+            nav:false,
+            dot: false,
+        },
+        600:{
+            items:2,
+            nav:false,
+            dot: false,
+        },
+        1000:{
+            items:4,
+            nav:true,
+            loop: true
+        }
+    }
+})
+    </script>
+  <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> 
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script> -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
     integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
     crossorigin="anonymous"></script>
