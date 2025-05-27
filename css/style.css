@@ -290,6 +290,9 @@ padding: 0.8rem 0;
     height: 50vh;
     background-attachment: fixed;
   }
+  .owl-theme .owl-nav.disabled+.owl-dots{
+    display: none;
+  }
   .sticky-img-2{
     background-image: url(../images/cabinets\ final\ image\ .png);
     background-position: center;
