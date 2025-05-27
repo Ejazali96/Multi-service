@@ -230,7 +230,7 @@ padding: 0.8rem 0;
     color: rgb(29, 28, 28);
   }
   .extra-sec{
-    background-color: black;
+    background-color: gold;
   }
   .card-wrap{
     background-color: white;
@@ -241,8 +241,13 @@ padding: 0.8rem 0;
     padding-left: 5rem;
   }
  img.img-fluid.sub-logo {
-    height: 80px;
+    height: 50px;
+    transition: 0.4s;
+    cursor: pointer;
 }
+ img.img-fluid.sub-logo:hover{
+   transform: scale(1.09);
+ }
   .slide-img{
     padding: 3rem;
     overflow: hidden;
@@ -253,13 +258,15 @@ padding: 0.8rem 0;
   }
   .para{
     font-size: 18px;
-    width: 50%;
+    width: 100%;
     margin-top: 13px;
   }
+  .text-black{
+    color: black;
+  }
   .bg{
-    background-color: black;
-    height: 50%;
-    padding: 3rem 2rem;
+    background-color: gold;
+    padding: 2rem 1rem;
   }
   .border-right{
     border-right: 2px solid white;
@@ -286,8 +293,8 @@ padding: 0.8rem 0;
     font-weight: 300;
   }
   .card-detail{
-    background-color: black;
-    border: 1px solid white;
+    background-color: gold;
+    border: 2px solid white;
     padding: 2rem;
     margin-top: -14px;
     z-index: 9;
@@ -307,6 +314,7 @@ padding: 0.8rem 0;
     margin-top: 20px;
     font-size: 14px;
     text-align: center;
+    font-weight: 600;
   }
 .border-left-0{
   border-left: 0 !important;
@@ -522,10 +530,8 @@ footer{
 }
   .sub-logo {
     height: 200px;
-    width: 180px;
-    margin-top: 4rem;
-    margin-left: 1rem;
-    margin-bottom: 2rem;
+          width: 102px;
+
 }
 .card-wrap{
   padding-left: 1rem;
@@ -533,7 +539,7 @@ footer{
 }
 .title{
   margin-left: 0 !important;
-  padding-left: 15px;
+  
 
 }
 .title h3 {
