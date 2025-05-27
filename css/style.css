@@ -303,6 +303,7 @@ padding: 0.8rem 0;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    height: 210px;
   }
   .card-detail svg{
     fill: white;
