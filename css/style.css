@@ -559,8 +559,14 @@ footer{
   
 
 }
+.title-detail h4{
+  font-size: 17px;
+}
+.title-detail p {
+    font-size: 16px;
+}
 .title h3 {
-  font-size: 26px;
+  font-size: 20px;
   width: 100%;
   margin-bottom: 1rem;
   margin-top: 1rem;
@@ -628,5 +634,8 @@ footer{
 }
 .extra-img{
   width: 90% !important;
+}
+.navbar-nav .nav-link{
+  color: white !important;
 }
  }
