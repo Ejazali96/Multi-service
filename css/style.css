@@ -334,8 +334,20 @@ padding: 0.8rem 0;
 .border-left-0{
   border-left: 0 !important;
 }
+.banner-img  img{
+    animation: left-right 2s ease-in-out infinite alternate-reverse both;
+}
+@keyframes left-right {
+  0% {
+    transform: translatex(10px);
+  }
+
+  100% {
+    transform: translatex(-10px);
+  }
+}
 .sticky-house{
-  background-image: url(../images/sticky-house.jpg);
+  /* background-image: url(../images/sticky-house.jpg); */
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -345,6 +357,7 @@ padding: 0.8rem 0;
     align-items: center;
     text-align: center;
     position: relative;
+    background-color: black;
 }
 .sticky-house h1{
   color: white;
