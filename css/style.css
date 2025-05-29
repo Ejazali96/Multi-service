@@ -98,7 +98,7 @@ padding: 0.8rem 0;
     color: white !important;
 }
 .navbar-brand img{
-  height: 44px;
+  height: 70px;
 }
   @media (max-width: 767px) {
     .outter.hero-video {
@@ -111,7 +111,7 @@ padding: 0.8rem 0;
     width: 100%;
     position: relative;
     overflow: hidden;
-    margin-top: -70px;
+    margin-top: -100px;
   }
   @media (max-width: 767px) {
     .hero-video .video-container {
@@ -377,6 +377,13 @@ padding: 0.8rem 0;
     transform: translatex(-10px);
   }
 }
+.interior{
+  background-image: url(../images/new-interiro.jpg);
+      height: 35rem;
+    background-size: cover;
+    background-position: center;
+
+}
 .sticky-house{
   /* background-image: url(../images/sticky-house.jpg); */
   background-position: center;
@@ -388,7 +395,7 @@ padding: 0.8rem 0;
     align-items: center;
     text-align: center;
     position: relative;
-    background-color: #78777736;
+    background-color: black
 }
 .sticky-house h1{
   color: white;
