@@ -29,6 +29,7 @@ body{
 /*   animation: text 4s 1; */
   animation-name: text;
   animation-duration: 4s;
+  font-size: 25px;
   animation-iteration-count: infinite;
 }
 @keyframes text {
@@ -301,7 +302,7 @@ padding: 0.8rem 0;
   }
   .slide-img img{
     height: 100%;
-    width:  50%;
+    width:  30%;
   }
   .para{
     font-size: 18px;
