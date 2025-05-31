@@ -657,7 +657,7 @@ header{
   color: black;
   background: rgb(255 247 247);
   z-index: 99999999;
-  position: relative;
+  position: relative !important;
 }
 .margin-top{
   margin-top: 5px !important;
